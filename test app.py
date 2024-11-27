@@ -4,7 +4,7 @@ from app import app
 
 
 class TestApp(unittest.TestCase):
-    def setUp(self):
+    def setUp(self): 
         self.app = app.test_client()
 
     def test_home_route(self):
